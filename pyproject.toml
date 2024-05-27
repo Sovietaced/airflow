@@ -193,6 +193,9 @@ platforms = ["linux", "macos"]
 description = "Environment with Python 3.12. No devel installed"
 features = []
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 
 [tool.hatch.version]
 path = "airflow/__init__.py"
