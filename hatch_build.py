@@ -458,7 +458,7 @@ DEPENDENCIES = [
     "marshmallow-oneofschema>=2.0.1",
     "mdit-py-plugins>=0.3.0",
     "methodtools>=0.4.7",
-    "opentelemetry-api>=1.15.0",
+    "opentelemetry-api@git+https://github.com/Sovietaced/opentelemetry-python#egg=protobuf5-test&subdirectory=opentelemetry-api",
     "opentelemetry-exporter-otlp@git+https://github.com/Sovietaced/opentelemetry-python#egg=protobuf5-test&subdirectory=exporter/opentelemetry-exporter-otlp",
     "packaging>=14.0",
     "pathspec>=0.9.0",
