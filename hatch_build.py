@@ -459,7 +459,7 @@ DEPENDENCIES = [
     "mdit-py-plugins>=0.3.0",
     "methodtools>=0.4.7",
     "opentelemetry-api>=1.15.0",
-    "opentelemetry-exporter-otlp",
+    "opentelemetry-exporter-otlp@git+https://github.com/Sovietaced/opentelemetry-python#egg=protobuf5-test&subdirectory=exporter/opentelemetry-exporter-otlp",
     "packaging>=14.0",
     "pathspec>=0.9.0",
     "pendulum>=2.1.2,<4.0",
